@@ -31,9 +31,7 @@ Gidhelp (Github Description Helper):
 
 
 
-# files addresses
-GIDHELP_75_MODEL_PATH = "/workspaces/gidhelp/gidhelp_75.h5"
-GIDHELP_75_TOKENIZER_PATH = "/workspaces/gidhelp/gidhelp_75_tokenizer.pkl"
+
 
 
 
@@ -45,6 +43,15 @@ from numpy import argmax
 from time import sleep 
 
 import pickle 
+import os
+
+
+
+
+
+# files addresses
+GIDHELP_75_MODEL_PATH = os.path.join(os.getcwd(), "gidhelp_75.h5")
+GIDHELP_75_TOKENIZER_PATH = os.path.join(os.getcwd(), "gidhelp_75_tokenizer.pkl")
 
 
 
