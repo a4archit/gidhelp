@@ -85,6 +85,8 @@ with col2:
 with col3:
     st.button("Help me now!", use_container_width=True)
 
+st.divider()
+
 space_for_output = st.empty()
 
 
@@ -99,7 +101,7 @@ if user != "":
             else:
                 output_chars += f"{char}"
 
-            space_for_output.markdown(f'<p style="font-size: 1.2em;background-color: #edebeb; padding: 30px; box-sizing:border-box; border-radius: 10px;"><b>{user.capitalize().strip()}</b> <i style="color: #807d7d">{output_chars}</i> </p>', unsafe_allow_html=True)
+            space_for_output.markdown(f'<p style="font-size: 1.2em;background-color: #edebeb; padding: 30px; box-sizing:border-box; border-radius: 10px;"><b style="color: #000;">{user.capitalize().strip()}</b> <i style="color: #807d7d">{output_chars}</i> </p>', unsafe_allow_html=True)
             if word_index == 0 and index == 0:
                 sleep(0.5)
             sleep(0.05)
