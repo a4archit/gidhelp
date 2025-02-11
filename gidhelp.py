@@ -32,8 +32,8 @@ Gidhelp (Github Description Helper):
 
 
 # files addresses
-GIDHELP_75_MODEL_PATH = "/home/archit-elitebook/workarea/whole working/deep learning/gidhelp/gidhelp_75.h5"
-GIDHELP_75_TOKENIZER_PATH = "/home/archit-elitebook/workarea/whole working/deep learning/gidhelp/gidhelp_75_tokenizer.pkl"
+GIDHELP_75_MODEL_PATH = "/workspaces/gidhelp/gidhelp_75.h5"
+GIDHELP_75_TOKENIZER_PATH = "/workspaces/gidhelp/gidhelp_75_tokenizer.pkl"
 
 
 
