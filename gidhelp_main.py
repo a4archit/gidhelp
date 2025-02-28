@@ -30,7 +30,7 @@ details = """#### About the Model
 - It is based on next word predictor technique.
 - It has several versions i.e., *Gidhelp_75*, *Gidhelp_500*, etc
 - Currently there are available only one model *Gidhelp_75*
-- More models will comming soon.
+- *More models will comming soon*.
 """
 
 #  Sidebar  
